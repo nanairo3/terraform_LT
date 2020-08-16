@@ -11,6 +11,7 @@ variable "AMI" {
   type = map(string)
   default = {
     ap-northeast-1 = "ami-0cc75a8978fbbc969"
+    ap-northeast-2 = "ami-0cc75a8978fbbc969"
   }
 }
 variable "PATH_TO_PUBLIC_KEY" {
